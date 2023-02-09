@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 10px;
+}
+
+.sort {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ffa500;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  border: none;
+}

@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: orange;
+}
+
+.img-gouv {
+  padding-top: 20px;
+  width: 50%;
+  min-height: 50px;
+}
+
+.msg-danger {
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-size: 12px;
+}

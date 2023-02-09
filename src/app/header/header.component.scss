@@ -1,0 +1,22 @@
+.header-container {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("https://www.beerwulf.com/static/dist/assets/img/ipa.jpg");
+  background-size: cover;
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  text-transform: uppercase;
+  color: azure;
+  font-size: 10vh;
+}

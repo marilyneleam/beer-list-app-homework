@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<ng-container *ngIf="!serviceError">
+	<div class="sort">
+		<button class="btn-y" (click)="sortByYear('first_brewed')"><span class="icon"></span>Sort by year</button>
+		<button class="btn-n" (click)="otherSort('name')">Sort by name</button>
+	</div>
+	<div class="content">
+		<div class="container" *ngFor="let beer of beers">
+			<app-beer [beer]="beer"></app-beer>
+		</div>
+	</div>
+</ng-container>
+
+<ng-container *ngIf="serviceError">
+	<h2 class="text-center p-5">The service is unavailable.</h2>
+</ng-container>
+
+<app-footer></app-footer>
